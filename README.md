@@ -1,3 +1,5 @@
+Fork of  joshuamorris3/namecheap-ddns-update adding ARM as a base image to be able to run it in Raspberry Pi
+
 # namecheap-ddns-update
 Update the IP address of your [namecheap.com](namecheap.com) Dynamic DNS A records.
 
