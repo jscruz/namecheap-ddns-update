@@ -1,5 +1,5 @@
-# Start from apline, a minimal docker image
-FROM alpine:3.2
+# Start from ARM alpine, a minimal docker image
+FROM arm32v6/alpine:3.7
 
 # Add in SSL certificates for use with https, curl to call the update endpoint,
 # bash used by the namecheap-ddns-update script, and gawk to parse the response
